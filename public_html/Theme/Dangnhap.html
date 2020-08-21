@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <style>
+        #wrapper{
+            width: 960px;
+            height: 1000px;
+            background-color: #fff;
+            margin: 0 auto;
+        }
+        .row{
+            border: 1px gray solid;
+            border-radius: 10px;
+            width: 50%;
+            margin: 50px auto;
+            padding: 20px;
+            height: auto;
+            box-shadow: 2px 3px gray;
+        }
+        .form-group{
+            margin-bottom: 15px;
+        }
+        label{
+            display: inline-block;
+            max-width: 100%;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+        .form-control{
+            display: block;
+            width: 95%;
+            height: 28px;
+            padding: 3px 8px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #555;
+            background-color: #fff;
+            border: 1px #ccc solid;
+            border-radius:  4px;
+            box-shadow: inset 0 1px 1px gainsboro;
+        }
+        .btn{
+            display: inline-block;
+            margin-bottom: 0;
+            font-weight: 400px;
+            text-align: center;
+            padding:6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+            color: #fff;
+            background-color: #2e6da4;
+        }
+        .checkbox,.radio{
+            font-weight: 400px;
+        }
+        .select{
+            width: 98%;
+            line-height: 30px;
+        }
+    </style>
+    <body>
+        <div id="wrapper">
+            <div class="row">
+                <h1>Login</h1>
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input type="text" class="form-control" name="username" placeholder="Enter UserName">
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="Enter Password">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox">Remember me</label>
+                    </div>
+                    <hr>
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="reset" class="btn">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
